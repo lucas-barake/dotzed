@@ -19,7 +19,7 @@
         "background": "#0A0A0A",
         "foreground": "#d4d4d4",
         "accent": "#BBB0FF",
-        "border": "#080808",
+        "border": "#151515",
         "border.variant": "#353535",
         "border.focused": "#BBB0FF",
         "border.selected": "#8b5cf6",
@@ -132,7 +132,7 @@
         "panel.focused_border": "#8b5cf6",
 
         "pane.focused_border": "#8b5cf6",
-        "pane_group.border": "#080808",
+        "pane_group.border": "#151515",
 
         "element.background": "#0B0B0B",
         "element.hover": "#1A1A1A",
