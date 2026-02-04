@@ -1,0 +1,19 @@
+# Ignore everything by default
+*
+
+# Allow the gitignore itself
+!.gitignore
+
+# Allow configuration files
+!settings.json
+!keymap.json
+!tasks.json
+
+# Allow custom themes directory
+!themes/
+!themes/**
+
+# Allow custom prompt templates (not the database)
+!prompts/
+!prompts/templates/
+!prompts/templates/**
