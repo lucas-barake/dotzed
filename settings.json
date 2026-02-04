@@ -1,5 +1,42 @@
 {
   // ─────────────────────────────────────────────────────────────
+  // File Scanning & Search
+  // ─────────────────────────────────────────────────────────────
+  "file_scan_exclusions": [
+    "**/.git",
+    "**/.svn",
+    "**/.hg",
+    "**/.jj",
+    "**/.sl",
+    "**/.repo",
+    "**/CVS",
+    "**/.DS_Store",
+    "**/Thumbs.db",
+    "**/node_modules",
+    "**/.pnpm",
+    "**/dist",
+    "**/build",
+    "**/.next",
+    "**/.nuxt",
+    "**/.turbo",
+    "**/.cache",
+    "**/.parcel-cache",
+    "**/.venv",
+    "**/.env",
+    "**/venv",
+    "**/__pycache__",
+    "**/.pytest_cache",
+    "**/.mypy_cache",
+    "**/target",
+    "**/.cargo",
+    "**/vendor",
+    "**/.bundle",
+    "**/coverage",
+    "**/.nyc_output",
+    "**/*.log",
+  ],
+
+  // ─────────────────────────────────────────────────────────────
   // Theme & Appearance
   // ─────────────────────────────────────────────────────────────
   "vim_mode": true,
@@ -91,10 +128,8 @@
   // ─────────────────────────────────────────────────────────────
   "disable_ai": false,
   "show_edit_predictions": false,
-  "features": {
-    "edit_prediction_provider": "zed",
-  },
   "edit_predictions": {
+    "provider": "zed",
     "mode": "subtle",
     "enabled_in_text_threads": false,
     "copilot": {
