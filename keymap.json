@@ -9,7 +9,6 @@
       "ctrl-shift-g": "git_panel::ToggleFocus",
       "cmd-shift-a": "agent::ToggleFocus",
       "cmd-shift-c": "workspace::CopyRelativePath",
-      "cmd-t": ["task::Spawn", { "task_name": "terminal" }],
     },
   },
 
@@ -57,12 +56,6 @@
   // ─────────────────────────────────────────────────────────────
   // Terminal
   // ─────────────────────────────────────────────────────────────
-  {
-    "context": "Terminal",
-    "bindings": {
-      "cmd-t": ["task::Spawn", { "task_name": "terminal" }],
-    },
-  },
 
   // ─────────────────────────────────────────────────────────────
   // Editor
@@ -79,7 +72,6 @@
       "cmd-d": ["editor::SelectNext", { "replace_newest": false }],
       "cmd-shift-d": "editor::SelectAllMatches",
       "ctrl-enter": "editor::ToggleCodeActions",
-      "cmd-t": ["task::Spawn", { "task_name": "terminal" }],
     },
   },
   {
